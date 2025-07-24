@@ -3,8 +3,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv(r"c:\Users\dekny\OneDrive\Desktop\Resume Parser\UpdatedResumeDataSet.csv")
-
+df = pd.read_csv("UpdatedResumeDataSet.csv")
 
 def classify_resume(text):
     required_skills = ['python', 'machine learning', 'nlp']
